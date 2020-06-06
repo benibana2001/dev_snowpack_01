@@ -4,7 +4,7 @@ import './App.css';
 
 interface AppProps {}
 
-function App({}: AppProps) {
+const App = ({}: AppProps) => {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,6 +23,6 @@ function App({}: AppProps) {
       </header>
     </div>
   );
-}
+};
 
 export default App;
